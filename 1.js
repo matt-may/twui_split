@@ -9926,4 +9926,511 @@ export default function Example() {
         <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-blue-500">
           <circle r={3} cx={3} cy={3} />
         </svg>
-        Badg
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-full bg-indigo-100 px-1.5 py-0.5 text-xs font-medium text-indigo-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-indigo-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-full bg-purple-100 px-1.5 py-0.5 text-xs font-medium text-purple-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-purple-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-full bg-pink-100 px-1.5 py-0.5 text-xs font-medium text-pink-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-pink-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / Small flat pill
+
+Component summary: This component presents a collection of small, pill-shaped badges implemented using Tailwind CSS, each featuring a different color scheme with matching background and text colors. The badges are designed with a minimal, flat aesthetic using rounded-full corners, small padding (px-1.5 py-0.5), and a consistent text size (text-xs), making them ideal for displaying status indicators, categories, or labels in a space-efficient manner. The component includes eight color variations (gray, red, yellow, green, blue, indigo, purple, and pink) with pastel backgrounds and darker text for optimal contrast and visual hierarchy.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center rounded-full bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-red-100 px-1.5 py-0.5 text-xs font-medium text-red-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-yellow-100 px-1.5 py-0.5 text-xs font-medium text-yellow-800">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-green-100 px-1.5 py-0.5 text-xs font-medium text-green-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-blue-100 px-1.5 py-0.5 text-xs font-medium text-blue-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-indigo-100 px-1.5 py-0.5 text-xs font-medium text-indigo-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-purple-100 px-1.5 py-0.5 text-xs font-medium text-purple-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-pink-100 px-1.5 py-0.5 text-xs font-medium text-pink-700">
+        Badge
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / Small flat with dot
+
+Component summary: This component represents a collection of small, flat badge elements with leading dot indicators, available in various color schemes (gray, red, yellow, green, blue, indigo, purple, and pink). Each badge combines a tiny SVG circle icon with text, using a consistent design pattern of subtle background colors (`bg-{color}-100`), darker text (`text-{color}-700`), and rounded corners, making them ideal for status indicators, labels, or categorical tags in applications. The badges are designed to be compact and lightweight, using small text (`text-xs`) and minimal padding, making them perfect for dense UI layouts where space efficiency is important while maintaining visual hierarchy and color-coding capabilities.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-gray-400">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md bg-red-100 px-1.5 py-0.5 text-xs font-medium text-red-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-red-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md bg-yellow-100 px-1.5 py-0.5 text-xs font-medium text-yellow-800">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-yellow-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md bg-green-100 px-1.5 py-0.5 text-xs font-medium text-green-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-green-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md bg-blue-100 px-1.5 py-0.5 text-xs font-medium text-blue-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-blue-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-100 px-1.5 py-0.5 text-xs font-medium text-indigo-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-indigo-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md bg-purple-100 px-1.5 py-0.5 text-xs font-medium text-purple-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-purple-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md bg-pink-100 px-1.5 py-0.5 text-xs font-medium text-pink-700">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-pink-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / Small flat
+
+Component summary: This component represents a collection of small, flat badge elements designed with a minimal and consistent style across different color variations. Each badge features a subtle rounded appearance with a light background color and corresponding darker text, using a small text size and medium font weight for optimal readability. The component is particularly useful for status indicators, categories, or labels in interfaces where space is limited and visual distinction between different types of information is needed while maintaining a flat, modern aesthetic.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center rounded-md bg-gray-100 px-1.5 py-0.5 text-xs font-medium text-gray-600">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-red-100 px-1.5 py-0.5 text-xs font-medium text-red-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-yellow-100 px-1.5 py-0.5 text-xs font-medium text-yellow-800">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-green-100 px-1.5 py-0.5 text-xs font-medium text-green-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-blue-100 px-1.5 py-0.5 text-xs font-medium text-blue-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-indigo-100 px-1.5 py-0.5 text-xs font-medium text-indigo-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-purple-100 px-1.5 py-0.5 text-xs font-medium text-purple-700">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-pink-100 px-1.5 py-0.5 text-xs font-medium text-pink-700">
+        Badge
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / Small pill with border
+
+Component summary: This component implements a collection of small, pill-shaped badges with subtle borders using Tailwind CSS's utility classes. Each badge features a rounded-full design with a light background color, complementary text color, and a thin ring border (using ring-1) with reduced opacity, creating a delicate and modern appearance. These badges would be particularly useful for displaying status indicators, tags, categories, or labels in applications where a subtle yet visually distinct element is needed, with multiple color variants (gray, red, yellow, green, blue, indigo, purple, and pink) available to convey different meanings or states.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center rounded-full bg-gray-50 px-1.5 py-0.5 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-red-50 px-1.5 py-0.5 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-yellow-50 px-1.5 py-0.5 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-blue-50 px-1.5 py-0.5 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-indigo-50 px-1.5 py-0.5 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-purple-50 px-1.5 py-0.5 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-full bg-pink-50 px-1.5 py-0.5 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">
+        Badge
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / Small with border
+
+Component summary: This component presents a collection of small, color-coded badge elements with subtle borders, designed for inline status indicators or labels in a UI. Each badge features a consistent design pattern with rounded corners, light background colors, and a thin ring border, while utilizing a coordinated color scheme where the text color is a darker shade of the badge's primary color. These badges would be particularly useful for categorizing items, indicating statuses, or highlighting metadata in applications where space efficiency is important, as they maintain a compact footprint with their small text size and minimal padding.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center rounded-md bg-gray-50 px-1.5 py-0.5 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-red-50 px-1.5 py-0.5 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-yellow-50 px-1.5 py-0.5 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-green-50 px-1.5 py-0.5 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-blue-50 px-1.5 py-0.5 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-indigo-50 px-1.5 py-0.5 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-purple-50 px-1.5 py-0.5 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-pink-50 px-1.5 py-0.5 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">
+        Badge
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / With border and dot on dark
+
+Component summary: This is a dark-themed badge component that combines a small colored dot indicator with text, designed for use on dark backgrounds. The component features a subtle border created using Tailwind's ring utilities, rounded corners, and comes in various color variations (red, yellow, green, blue, indigo, purple, and pink) through the dot indicator while maintaining consistent white text and dark border styling. This type of badge would be particularly useful in dashboards, admin interfaces, or status indicators where you need to visually categorize or indicate different states or categories with a sophisticated, dark-mode friendly design.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-gray-800">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-red-400">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-gray-800">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-yellow-400">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-gray-800">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-green-400">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-gray-800">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-blue-400">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-gray-800">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-indigo-400">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-gray-800">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-purple-400">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-white ring-1 ring-inset ring-gray-800">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-pink-400">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / With border and dot
+
+Component summary: This component showcases a collection of bordered badge elements, each featuring a small colored dot indicator and text label. The badges are designed with a consistent structure using Tailwind's utility classes to create a subtle border (using ring-1), rounded corners, and uniform padding, while incorporating small SVG circles in various colors (red, yellow, green, blue, indigo, purple, and pink) as status indicators. This badge pattern is particularly useful for displaying status information, categories, or labels in applications where visual distinction is needed through both color coding and a clean, bordered design.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-red-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-yellow-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-green-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-blue-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-indigo-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-purple-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-pink-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Badge
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / With border and remove button
+
+Component summary: This component showcases a collection of dismissible badges in various colors (gray, red, yellow, green, blue, indigo, purple, and pink), each featuring a subtle border and an interactive remove button. The badges are designed with consistent styling patterns including a light background, matching text color, and a thin ring border, while incorporating a small "x" remove button that provides hover feedback. This pattern is particularly useful in interfaces where users need to manage tags, filters, or selected items, such as in tag management systems, filter interfaces, or multi-select components where items can be individually removed.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center gap-x-0.5 rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+        Badge
+        <button type="button" className="group relative -mr-1 h-3.5 w-3.5 rounded-sm hover:bg-gray-500/20">
+          <span className="sr-only">Remove</span>
+          <svg viewBox="0 0 14 14" className="h-3.5 w-3.5 stroke-gray-600/50 group-hover:stroke-gray-600/75">
+            <path d="M4 4l6 6m0-6l-6 6" />
+          </svg>
+          <span className="absolute -inset-1" />
+        </button>
+      </span>
+      <span className="inline-flex items-center gap-x-0.5 rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10">
+        Badge
+        <button type="button" className="group relative -mr-1 h-3.5 w-3.5 rounded-sm hover:bg-red-600/20">
+          <span className="sr-only">Remove</span>
+          <svg viewBox="0 0 14 14" className="h-3.5 w-3.5 stroke-red-600/50 group-hover:stroke-red-600/75">
+            <path d="M4 4l6 6m0-6l-6 6" />
+          </svg>
+          <span className="absolute -inset-1" />
+        </button>
+      </span>
+      <span className="inline-flex items-center gap-x-0.5 rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
+        Badge
+        <button type="button" className="group relative -mr-1 h-3.5 w-3.5 rounded-sm hover:bg-yellow-600/20">
+          <span className="sr-only">Remove</span>
+          <svg viewBox="0 0 14 14" className="h-3.5 w-3.5 stroke-yellow-700/50 group-hover:stroke-yellow-700/75">
+            <path d="M4 4l6 6m0-6l-6 6" />
+          </svg>
+          <span className="absolute -inset-1" />
+        </button>
+      </span>
+      <span className="inline-flex items-center gap-x-0.5 rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+        Badge
+        <button type="button" className="group relative -mr-1 h-3.5 w-3.5 rounded-sm hover:bg-green-600/20">
+          <span className="sr-only">Remove</span>
+          <svg viewBox="0 0 14 14" className="h-3.5 w-3.5 stroke-green-700/50 group-hover:stroke-green-700/75">
+            <path d="M4 4l6 6m0-6l-6 6" />
+          </svg>
+          <span className="absolute -inset-1" />
+        </button>
+      </span>
+      <span className="inline-flex items-center gap-x-0.5 rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10">
+        Badge
+        <button type="button" className="group relative -mr-1 h-3.5 w-3.5 rounded-sm hover:bg-blue-600/20">
+          <span className="sr-only">Remove</span>
+          <svg viewBox="0 0 14 14" className="h-3.5 w-3.5 stroke-blue-700/50 group-hover:stroke-blue-700/75">
+            <path d="M4 4l6 6m0-6l-6 6" />
+          </svg>
+          <span className="absolute -inset-1" />
+        </button>
+      </span>
+      <span className="inline-flex items-center gap-x-0.5 rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+        Badge
+        <button type="button" className="group relative -mr-1 h-3.5 w-3.5 rounded-sm hover:bg-indigo-600/20">
+          <span className="sr-only">Remove</span>
+          <svg viewBox="0 0 14 14" className="h-3.5 w-3.5 stroke-indigo-600/50 group-hover:stroke-indigo-600/75">
+            <path d="M4 4l6 6m0-6l-6 6" />
+          </svg>
+          <span className="absolute -inset-1" />
+        </button>
+      </span>
+      <span className="inline-flex items-center gap-x-0.5 rounded-md bg-purple-50 px-2 py-1 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10">
+        Badge
+        <button type="button" className="group relative -mr-1 h-3.5 w-3.5 rounded-sm hover:bg-purple-600/20">
+          <span className="sr-only">Remove</span>
+          <svg viewBox="0 0 14 14" className="h-3.5 w-3.5 stroke-violet-600/50 group-hover:stroke-violet-600/75">
+            <path d="M4 4l6 6m0-6l-6 6" />
+          </svg>
+          <span className="absolute -inset-1" />
+        </button>
+      </span>
+      <span className="inline-flex items-center gap-x-0.5 rounded-md bg-pink-50 px-2 py-1 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10">
+        Badge
+        <button type="button" className="group relative -mr-1 h-3.5 w-3.5 rounded-sm hover:bg-pink-600/20">
+          <span className="sr-only">Remove</span>
+          <svg viewBox="0 0 14 14" className="h-3.5 w-3.5 stroke-pink-700/50 group-hover:stroke-pink-700/75">
+            <path d="M4 4l6 6m0-6l-6 6" />
+          </svg>
+          <span className="absolute -inset-1" />
+        </button>
+      </span>
+    </>
+  )
+}
+
+
+
+
+/* 
+Tailwind UI pre-built component
+                                    
+Component category and name: application-ui / elements / badges / With border on dark
+
+Component summary: This component showcases a collection of subtle, bordered badge elements designed specifically for dark-mode interfaces. Each badge features a semi-transparent background color (using opacity modifiers like `/10`), matching text color, and a thin ring border with slightly higher opacity, creating a cohesive and sophisticated visual hierarchy. The badges are implemented as inline-flex containers with consistent padding, rounded corners, and small text size, making them perfect for displaying status indicators, tags, or labels in dark-themed applications where visual distinction needs to be maintained while keeping the interface elegant.
+*/
+export default function Example() {
+  return (
+    <>
+      <span className="inline-flex items-center rounded-md bg-gray-400/10 px-2 py-1 text-xs font-medium text-gray-400 ring-1 ring-inset ring-gray-400/20">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-red-400/10 px-2 py-1 text-xs font-medium text-red-400 ring-1 ring-inset ring-red-400/20">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-yellow-400/10 px-2 py-1 text-xs font-medium text-yellow-500 ring-1 ring-inset ring-yellow-400/20">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-green-500/10 px-2 py-1 text-xs font-medium text-green-400 ring-1 ring-inset ring-green-500/20">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-blue-400 ring-1 ring-inset ring-blue-400/30">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-indigo-400/10 px-2 py-1 text-xs font-medium text-indigo-400 ring-1 ring-inset ring-indigo-400/30">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-purple-400/10 px-2 py-1 text-xs font-medium text-purple-400 ring-1 ring-inset ring-purple-400/30">
+        Badge
+      </span>
+      <span className="inline-flex items-center rounded-md bg-pink-400/10 px-2 py-1 text-xs font-medium text-pink-400 ring-1 ring-inset ring-pink-400/20">
+        Badge
+      </span>
+    </>
+  )
+}
